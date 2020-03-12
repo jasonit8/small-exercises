@@ -1,6 +1,3 @@
-'''
-This program checks whether a number is prime or not.
-'''
 def isprime(number):
     if (type(number) != int) or (number < 2):
         return False
@@ -13,3 +10,7 @@ def isprime(number):
             primes += [prime] if all(prime % p > 0 for p in primes) else []
             prime += 1
         return all(number % p > 0 for p in primes)
+
+'''
+This program checks whether a number is prime or not.
+'''
