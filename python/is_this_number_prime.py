@@ -11,6 +11,4 @@ def isprime(number):
             prime += 1
         return all(number % p > 0 for p in primes)
 
-'''
-This program checks whether a number is prime or not.
-'''
+# This program checks whether a number is prime or not.
